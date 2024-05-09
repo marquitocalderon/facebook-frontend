@@ -1,0 +1,43 @@
+<div class="flex justify-center items-center h-screen max-lg:flex-col bg-gray-100">
+
+    <div class="w-1/2 h-full relative flex justify-center items-center max-lg:w-full">
+        <div class="absolute right-0  px-[17px] mb-40 ml-48 max-xl:ml-14 max-lg:px-10 max-lg:mb-0 max-lg:ml-0">
+         <h1 class="text-6xl mb-2 text-blue-600 font-bold max-lg:mb-3 max-lg:text-center">facebook</h1>
+         <p class="text-3xl max-lg:px-4 max-lg:text-xl max-lg:text-center">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+        </div>
+     </div>
+     
+     <div class="w-1/2 relative max-lg:w-full max-lg:-mt-9">
+        <div class="container mx-auto flex flex-col items-center -ml-24 -mt-14 max-xl:ml-0 max-lg:ml-0 max-lg:-mt-16 max-lg:mx-0 max-lg:justify-center ">
+            <form action=""  class="shadow-2xl z-20 w-96 p-4 flex flex-col bg-white rounded-lg max-lg:w-80" (submit)="enviarDatos($event)">
+                <input type="text" id="email" name="email" class="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 focus:ring-blue-400 focus:border-blue-400" placeholder="Correo Electronico o numero de teléfono">
+                <input type="password"  id="password" class="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 focus:ring-blue-400 focus:border-blue-400" name="password" placeholder="Contraseña">
+    
+                <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-lg font-semibold text-lg hover:bg-blue-500">Iniciar Sesion</button>
+                <a href="" class="text-blue-400 text-center my-2">¿Olvidaste tu contraseña?</a>
+                <hr>
+                <span class="mx-auto cursor-pointer w-48 text-center flex justify-center items-center bg-green-600 hover:bg-green-500 mt-8 mb-4 text-white p-3 rounded-lg font-semibold text-lg">Create nueva cuenta</span>
+            </form>
+            <div class="w-80 mt-4 text-center max-lg:text-sm max-lg:mb-1">
+                <span class=""><strong>Crea una página</strong> para una celebridad, una marca o un negocio.</span>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- <div class="container mx-auto flex flex-col items-center">
+        <form action="" class="shadow-lg w-80 p-4 flex flex-col bg-white rounded-lg">
+            <input type="text" class="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-blue-500"  placeholder="Correo Electronico o numero de teléfono">
+            <input type="password" class="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-blue-500" name="" id="" placeholder="Contraseña">
+            <button class="w-full bg-blue-600 text-white p-3 rounded-lg font-semibold text-lg hover:bg-blue-500 ">Iniciar Sesion</button>
+            <a href="" class="text-blue-400 text-center my-2">¿Olvidaste tu contraseña?</a>
+            <hr>
+            <button class="w-full bg-green-500 mt-8 mb-4 text-white p-3 rounded-lg font-semibold text-lg">Create nueva cuenta</button>
+        </form>
+        <p class="text-center text-sm my-4">
+            <span><strong>Crea una página</strong> para una celebridad, una marca o un negocio.</span>
+        </p>
+    </div> -->
+
+</div>
