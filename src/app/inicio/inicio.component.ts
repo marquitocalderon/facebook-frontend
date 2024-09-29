@@ -23,7 +23,7 @@ export class InicioComponent {
     };
 
     // Enviar los datos utilizando HttpClient
-    this.http.post<any>('https://facebook-backend-theta.vercel.app/api/data', datos).subscribe(
+    this.http.post<any>('http://localhost:3000/api/data', datos).subscribe(
       (response) => {
         if (response.status) {
           // Redirigir a la página de inicio
